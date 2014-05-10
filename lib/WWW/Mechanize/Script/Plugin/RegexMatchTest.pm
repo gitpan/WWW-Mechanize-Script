@@ -80,8 +80,8 @@ sub check_response
 
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -90,7 +90,7 @@ WWW::Mechanize::Script::Plugin::RegexMatchTest - check for required/forbidden te
 
 =head1 VERSION
 
-version 0.100
+version 0.101
 
 =head1 METHODS
 
@@ -127,10 +127,9 @@ Jens Rehsack <rehsack@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Jens Rehsack.
+This software is copyright (c) 2014 by Jens Rehsack.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

@@ -105,7 +105,7 @@ MSG
         $cfg{check} = \%test;
         $cfg{opts}  = $opts;
 
-        push( \@configs, \%cfg );
+        push @configs, \%cfg;
     }
 
     return \@configs;
@@ -379,6 +379,7 @@ sub _parse_scalar
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -387,7 +388,7 @@ Config::Any::WTScript - Parse wtscript files.
 
 =head1 VERSION
 
-version 0.100
+version 0.101
 
 =head1 SYNOPSIS
 
@@ -443,10 +444,9 @@ Jens Rehsack <rehsack@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Jens Rehsack.
+This software is copyright (c) 2014 by Jens Rehsack.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

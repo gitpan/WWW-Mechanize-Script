@@ -4,7 +4,7 @@
       "Jens Rehsack <rehsack@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -16,13 +16,12 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Module::Build" : "0.3800",
             "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3800"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -60,7 +59,6 @@
       },
       "test" : {
          "requires" : {
-            "Config" : "0",
             "File::Spec" : "0",
             "HTTP::Daemon" : "0",
             "HTTP::Status" : "0",
@@ -86,6 +84,6 @@
          "web" : "http://repo.or.cz/w/WWW-Mechanize-Script.git"
       }
    },
-   "version" : "0.100"
+   "version" : "0.101"
 }
 
